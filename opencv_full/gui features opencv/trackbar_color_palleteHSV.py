@@ -11,7 +11,7 @@ cv2.namedWindow('image')
 cap = cv2.VideoCapture(0)
 
 # image
-image = cv2.imread("./images/green_car.jpeg")
+image = cv2.imread("../images/green_car.jpeg")
 image = cv2.resize(image, (300, 300))
 
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
